@@ -14,19 +14,29 @@ export const FlexScren = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'row',
     backgroundColor: '#28c4d9',
+    justifyContent: 'center',
   },
   caja1: {
+    width: 120,
+    height: 80,
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    justifyContent: 'center',
+    textAlign: 'center',
   },
   caja2: {
+    width: 120,
+    height: 100,
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
   },
   caja3: {
+    width: 120,
+    height: 100,
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
