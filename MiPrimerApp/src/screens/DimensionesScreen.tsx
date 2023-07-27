@@ -10,9 +10,8 @@ export const DimensionesScreen = () => {
         <View style={styles.cajaMorada}></View>
         <View style={styles.cajaNaranja}></View>
       </View>
-      <Text style={styles.title}>
-        W: {width}, H: {height}
-      </Text>
+      <Text style={styles.title}>h:{height}</Text>
+      <Text style={styles.title}>w:{width}</Text>
     </View>
   );
 };
