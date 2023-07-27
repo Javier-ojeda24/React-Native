@@ -14,10 +14,7 @@ export const FlexScren = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'row',
-    alignItems: 'flex-end',
     backgroundColor: '#28c4d9',
-    justifyContent: 'flex-end',
   },
   caja1: {
     borderWidth: 2,
