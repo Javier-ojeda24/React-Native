@@ -5,8 +5,8 @@ export const TareaScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.cajaMorada} />
-      <View style={styles.cajaAzul} />
       <View style={styles.cajaNaranja} />
+      <View style={styles.cajaAzul} />
     </View>
   );
 };
